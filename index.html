@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicon-->
+    <link rel="icon" href="icons/favicon.ico">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/30c383a2b1.js" crossorigin="anonymous"></script>
+
+    <!--google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&family=Press+Start+2P&family=Ubuntu:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <title>Szigetlakók</title>
+</head>
+
+<body>
+
+    <!-- Title & Navbar
+    Ide jön a menüsor és regisztráció, valamint a bejelentkezés -->
+    <section id=title-navbar>
+
+        <div class="container-fluid title-container">
+
+            <nav class="navbar navbar-expand-lg navbar-outline navbar-light">
+                <a class="navbar-brand" href="#">Szigetlakók</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Kezdőlap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Szabályok</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Világ- és faj leírások</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Karakteralkotás</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Vágj bele a kalandba, ami rád vár! Legyél bátor kalandor, dörzsölt kalmár, megbecsüt mester,
+                        vagy ami csak szeretnél.</h1>
+                    <div id="title-buttons">
+                        <button type="button" class=" btn btn-dark btn-lg signLogIn-btn"
+                            id="btn-dark-id">Regisztráció</button>
+
+                        <button type="button" class="btn btn-outline-light btn-lg signLogIn-btn">Belépés</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <img id="index-title-img" src="images/Szigetköz.jpeg" alt="Szigetköz-kikötő">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Features
+    Ide jönnek az oldalról leírások, mit tartalmaz nagyon nagyvonalakban.-->
+
+    <section id=features>
+
+        <div class="row container-fluid">
+            <div class="col-lg-4">
+                <p class="fas fa-globe-europe features-icons"></p>
+                <h2>Egyre bővülő világ.</h2>
+                <p>Minden tett számít. A Szigetek sorsát <strong>TI</strong> alakítjátok!</p>
+            </div>
+
+            <div class="col-lg-4">
+                <p class="far fa-address-card features-icons"></p>
+                <h2>Egyedi avatárok.</h2>
+                <p>A szokásos, beskatujázó kaszt rendszer helyett, bárkiből bármi lehet, csak kitartás kérdése.</p>
+            </div>
+
+            <div class="col-lg-4">
+                <p class="fas fa-book-reader features-icons"></p>
+                <h2>Kreatív szórakozás.</h2>
+                <p>Remek szórakozás, mind az írói vénával rendelkezőknek, mind a szerepjátékok szerelmeseinek.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--  Details
+    Ide az oldal részletesebb ismertetői, pár mondat, képek, linkek a konkrét helyekre, mint az oldal szabályzata, karakteralkotás, stb.-->
+    <section id=details>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h3>Fajok</h3>
+                            <p>Sok, más irodalmakból már ismert, és jópár új, kevésbé népszerű fanztázia beli lény
+                                várja, hogy felfedezd, esetleg, mint karakter, alakítsd. Három jól ismert, klasszikus
+                                faj, valamint egy újabb várja a játékosokat. A világ bővülésével pedig új fajok
+                                megjelenése is várható.</p>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <img class="details-img" src="images/Races.png" alt="fajok">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img class="details-img" src="images/adventures.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>"Kasztok"</h3>
+                            <p>Nem a megszokott, kőbevésett kasztok vannak, mint a legtöbb játékban. Karakteralkotáskot
+                                egy kezdő csomagot választas a képzettségekből, de később ez semmiben nem köt. Bármit
+                                megtanulhatsz, legyenek azok képzettségek, varázslatok, mágia használat fegyverforgatás
+                                vagy szakma.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h3>Egzotikus Főváros</h3>
+                            <p>Tengerparton fekvő kezdő város. Épp kilábalt az elmúlt századok káoszából, és csak a
+                                játékosokra vár, hogy utat törjenek az ismeretlenbe, felfedezni a világot és mérhetetlen
+                                gazdagsággal gyarapítsák Szigetközt.</p>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <img class="details-img" src="images/PirateTown_Day.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img class="details-img" src="images/509411.jpg" alt="">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <h3>Izgalmas helyszínek</h3>
+                            <p>Sokan élnek kis helyre összeszorulva. A vadon veszélyes, a város ármányokban gazdag.
+                                Rengeteg izgalmas helyszín várja, hogy felfedezzétek. Számos küldetés vár a
+                                kalandorokra, amellyek olyan tájakra kalauzolják, mint Vadaspagony, vagy az Érc Bércek,
+                                vagy a Kék Asszony öblén túli háborgó tenger.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
