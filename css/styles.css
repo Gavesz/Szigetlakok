@@ -60,16 +60,14 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar-light .navbar-brand{
-    font-size: 3.5rem;
+    font-size: 2rem;
     color: #F6DCBF;
     
 }
-/* .navbar-light{
-    color: #F6DCBF;
-} */
-.nav-link{
+
+/*.nav-link{
     font-size: 1rem;
-}
+} */
 
 .signLogIn-btn {
     margin: 5% 3% 3% 0;
@@ -139,4 +137,23 @@ font-family: 'Ubuntu', sans-serif;
 }
 #contacts div{
     margin: 3% auto;
+}
+
+
+/*Media query*/
+
+@media (max-width:900px){
+
+    .navbar-light .navbar-brand{
+        font-size: 1.25rem;
+        color: #F6DCBF;
+        
+    }
+
+    .nav-link{
+        font-size: 0.8rem;
+    }
+
+
+
 }
